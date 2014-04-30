@@ -1,6 +1,8 @@
 Krowdprize4::Application.routes.draw do
 
   root 'pages#home'
+
+  resources  :pages
   resources  :premails
   
   # The priority is based upon order of creation: first created -> highest priority.
